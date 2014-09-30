@@ -22,6 +22,7 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sanchez:400italic,400">
 <!--[if lt IE 9]>
 <script src="<?php echo esc_url( get_template_directory_uri() . '/js/html5.js' ); ?>"></script>
 <![endif]-->
@@ -39,7 +40,7 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'govpress' ); ?></a>
 
 			<?php wp_nav_menu( array('theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-			<?php wp_nav_menu( array('theme_location' => 'icon', 'menu_class' => 'nav-menu' ) ); ?>
+			<!--<?php wp_nav_menu( array('theme_location' => 'icon', 'menu_class' => 'nav-menu' ) ); ?>-->
 		</div>
 	</nav><!-- #site-navigation -->
 

@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<h1 class="entry-title"><?php the_title(); ?></h1><hr>
 	<section id="primary" class="content-area">
 		<div id="main" class="site-main" role="main">
 

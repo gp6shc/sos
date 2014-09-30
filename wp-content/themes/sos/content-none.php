@@ -9,9 +9,6 @@
 ?>
 
 <section class="no-results not-found">
-	<header class="entry-header">
-		<h1 class="entry-title"><?php _e( 'Nothing Found', 'govpress' ); ?></h1><hr>
-	</header><!-- .page-header -->
 
 	<div class="page-content">
 		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
